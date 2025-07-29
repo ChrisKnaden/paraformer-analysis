@@ -165,8 +165,16 @@ if __name__ == "__main__":
 
     dataset_config = {
         'Chesapeake': {
-            'list_dir': './dataset/NY_raw.csv', # The path of the *.csv file
+            'list_dir': './dataset/CSV_list/Chesapeake_NewYork.csv',
             'num_classes': 17
+        },
+        'Poland': {
+            'list_dir': './dataset/CSV_list/Poland.csv',
+            'num_classes': 11
+        },
+        'NRW': {
+            'list_dir': './dataset/CSV_list/NRW.csv',
+            'num_classes': 11
         }
     }
     dataset_name = args.dataset

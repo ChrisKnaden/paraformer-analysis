@@ -357,14 +357,18 @@ class VisionTransformer(nn.Module):
 
         self.config = config
 
-    def forward(self, x):
+    def forward(self, x, visualize_features=False):
         if x.size()[1] == 1:
             x = x.repeat(1,3,1,1)
-        x1, attn_weights, features = self.transformer(x)  # (B, n_patch, hidden)
-        x1,x2 = self.decoder(x1, features) #x1,
-        logits1 = self.segmentation_head1(x1)
-        logits2 = self.segmentation_head2(x2)
-        return logits1,logits2 # 
+        encoded_features, attn_weights, cnn_skip_features = self.transformer(x)  # (B, n_patch, hidden)
+        features_cnn_branch,features_vit_branch = self.decoder(encoded_features, cnn_skip_features)
+        logits1 = self.segmentation_head1(features_cnn_branch)
+        logits2 = self.segmentation_head2(features_vit_branch)
+
+        if visualize_features:
+            return logits1, logits2, features_cnn_branch, features_vit_branch, encoded_features
+
+        return logits1,logits2
 
     def load_from(self, weights):
         with torch.no_grad():

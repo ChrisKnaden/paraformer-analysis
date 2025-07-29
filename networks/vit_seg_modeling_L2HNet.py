@@ -36,7 +36,7 @@ class RPBlock(nn.Module):
 class L2HNet(nn.Module):
     def __init__(self, 
                  width, # width=64 for light mode; width=128 for normal mode
-                 image_band=4, # image_band genenral is 3 (RGB) or 4 (RGB-NIR) for high-resolution remote sensing images
+                 image_band=3, # image_band genenral is 3 (RGB) or 4 (RGB-NIR) for high-resolution remote sensing images
                  output_chs=128, 
                  length=5, 
                  ratios=[1, 0.5, 0.25], 

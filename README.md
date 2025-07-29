@@ -1,3 +1,18 @@
+# NOTICE
+This repository is a fork of the original Paraformer project developed by Dr. Li Zhuohong and collaborators.
+
+This fork was modified and used for academic, non-commercial purposes as part of a university seminar.
+
+Please refer to the original GitHub repository and its referenced publications for citation and academic use.
+
+All rights to the original work remain with the original authors.
+
+# Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Qe_hVJ5Q4vGG3DWUjf4p4U4ksQyBCKu7?usp=sharing)
+
+To train and evalutate the Paraformer framework on Google Colab, you can use the following link: [**Google Colab**](https://colab.research.google.com/drive/1Qe_hVJ5Q4vGG3DWUjf4p4U4ksQyBCKu7?usp=sharing).
+
+
 # Paraformer: Updating Large-scale High-resolution Geographical Maps from Limited Historical Labels
 
 Large-scale high-resolution (HR) mapping is a vital task to survey the Earth's surface and resolve many challenges facing humanity. 
