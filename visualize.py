@@ -116,9 +116,10 @@ class ProcessVisualizationDataset(Dataset):
             gt_chip_raw = f.read(1, window=window)
 
         # Normalize image for model input
-        hr_chip_tensor = (torch.from_numpy(hr_chip).permute(2, 0, 1).float() - torch.tensor(IMAGE_MEANS).view(3, 1,
-                                                                                                              1)) / torch.tensor(
-            IMAGE_STDS).view(3, 1, 1)
+        hr_chip_tensor = (torch.from_numpy(hr_chip).permute(2, 0, 1).float() - torch.tensor(IMAGE_MEANS).float().view(3,
+                                                                                                                      1,
+                                                                                                                      1)) / torch.tensor(
+            IMAGE_STDS).float().view(3, 1, 1)
 
         return hr_chip, hr_chip_tensor, lr_chip_raw, gt_chip_raw, np.array((y, x))
 

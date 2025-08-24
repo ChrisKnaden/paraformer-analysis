@@ -1,5 +1,5 @@
 # NOTICE
-This repository is a fork of the original Paraformer project developed by Dr. Li Zhuohong and collaborators.
+This repository is a fork of the original Paraformer project developed by Dr. Zhuohong Li and collaborators.
 
 This fork was modified and used for academic, non-commercial purposes as part of a university seminar.
 
