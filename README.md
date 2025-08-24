@@ -8,11 +8,30 @@ Please refer to the original GitHub repository and its referenced publications f
 All rights to the original work remain with the original authors.
 
 # Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Qe_hVJ5Q4vGG3DWUjf4p4U4ksQyBCKu7?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XGi4LLWOc0-PmGnkIAFnnV_rrTchOH1G?usp=sharing)
 
-To train and evalutate the Paraformer framework on Google Colab, you can use the following link: [**Google Colab**](https://colab.research.google.com/drive/1Qe_hVJ5Q4vGG3DWUjf4p4U4ksQyBCKu7?usp=sharing).
+To train and evalutate the Paraformer framework on Google Colab, you can use the following link: [**Google Colab**](https://colab.research.google.com/drive/1XGi4LLWOc0-PmGnkIAFnnV_rrTchOH1G?usp=sharing).
+
+# Download pre-trained models, predicted results and analysis data
+## Poland Dataset
+
+Besides from the model provided by the original authors, you can also download the pre-trained model, its predicted results and analysis data for the Poland dataset created in the scope of this seminar.
+
+There is a training_log.csv and an evaluation_with_class_iou_xxx.csv, which contain information about the training process and mIoU results.
+
+P1: https://drive.google.com/drive/folders/1eP6TfEoisFWOo1oHWk7_d5rWCDp13wtq?usp=sharing
+
+## NRW Dataset
+Similarly, you can download the pre-trained model, its predicted results and analysis data for the NRW dataset created in the scope of this seminar.
+
+There is a training_log.csv and an evaluation_with_class_iou_xxx.csv, which contain information about the training process and mIoU results.
+
+N1: https://drive.google.com/drive/folders/13waFbWXwNgk1kFn4CJmgQQpU1h7Q_5eU?usp=sharing
+
+N2: https://drive.google.com/drive/folders/180a7dnvnbM7Cn2bwKN354K-uvPBwC6AF?usp=sharing
 
 
+---
 # Paraformer: Updating Large-scale High-resolution Geographical Maps from Limited Historical Labels
 
 Large-scale high-resolution (HR) mapping is a vital task to survey the Earth's surface and resolve many challenges facing humanity. 
