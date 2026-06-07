@@ -19,16 +19,16 @@ Besides from the model provided by the original authors, you can also download t
 
 There is a training_log.csv and an evaluation_with_class_iou_xxx.csv, which contain information about the training process and mIoU results.
 
-P1: https://drive.google.com/drive/folders/1eP6TfEoisFWOo1oHWk7_d5rWCDp13wtq?usp=sharing
+P1: https://wwums-my.sharepoint.com/:f:/g/personal/cknaden_on_wwu_de/IgAMgUiPmnS7SIHlsQDJEE52ASAPWTpB0nsICvY-Wr5GFk0?e=nVYp1L
 
 ## NRW Dataset
 Similarly, you can download the pre-trained model, its predicted results and analysis data for the NRW dataset created in the scope of this seminar.
 
 There is a training_log.csv and an evaluation_with_class_iou_xxx.csv, which contain information about the training process and mIoU results.
 
-N1: https://drive.google.com/drive/folders/13waFbWXwNgk1kFn4CJmgQQpU1h7Q_5eU?usp=sharing
+N1: https://wwums-my.sharepoint.com/:f:/g/personal/cknaden_on_wwu_de/IgCTRvItN_LEQIL2aR9Nh-P_AQb3cPhYOuWlw15LUwGj4kI?e=GqEVMb
 
-N2: https://drive.google.com/drive/folders/180a7dnvnbM7Cn2bwKN354K-uvPBwC6AF?usp=sharing
+N2: https://wwums-my.sharepoint.com/:f:/g/personal/cknaden_on_wwu_de/IgAg-W99IJ5gR46GjMYU7Kh5AbFD7XDuXM8rIyxy-nYmYCo?e=c5jgzC
 
 
 ---

@@ -1,5 +1,5 @@
 You can find the NRW dataset at the following link:
 
-https://drive.google.com/drive/folders/1es5Y8WJgFkk-ygFQBqZwJHOZhp9Co5fp?usp=sharing
+https://wwums-my.sharepoint.com/:f:/g/personal/cknaden_on_wwu_de/IgB6YdgTY1xaQaMC2lY9QnvjAdH39pZDW6PJDt6_WqTTXXg?e=l0CFqU
 
 Put it into this folder.
